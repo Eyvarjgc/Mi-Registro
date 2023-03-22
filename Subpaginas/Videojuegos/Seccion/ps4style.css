@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    div,head,nav,section{
+        display: inline-block;
+    }
+    body{
+        text-align: center;
+        background: #2c2c54;
+    }
+    .agrupar{
+        width: 960px;
+        margin: 15px auto;
+        border: 2px solid black;
+        padding: 20px 160px 160px 150px;
+    }
+    header{
+        font-size: 50px;
+        text-align: left;
+        background: #227093;
+        border: 2px solid black;
+    }
+    p{
+        text-align: center;
+        font-family: cursive;
+        font-size: 20px;
+        background:#256d8f ;
+        border-radius: 20px;
+        padding-top:50px;
+        padding-bottom: 50px;
+        margin-top:20px;
+    }
+    img{
+        object-fit:cover;
+        width: 250px;
+        height: 350px;
+        border-radius: 0.5cm;
+    }
+    .Agrupacion-imagenes{
+        border: 4px solid;
+        display: inline-block;
+    }
+    .año2016{
+        background: #1900ff;
+        transform: skewy(5deg);
+        margin-right:850px;
+        text-align: left;
+        font-size: 25px;
+        margin-top:15px;
+    }
+    .año2017{
+        background:  rgb(0, 255, 85);
+        transform: skewy(5deg);
+        margin-right:850px;
+        text-align: left;
+        font-size: 25px;
+        margin-top:15px;
+    }
+
+    .año2018{
+        background: #e67e22;
+        text-align: left;
+        font-size: 25px;
+        margin-right:850px ;
+        margin-top:15px;
+        transform: skewY(5deg);
+    }
+
+    .año2019{
+        text-align: left;
+        background: #485460;
+        margin-right:850px ;
+        margin-top: 15px;
+        font-size: 25px;
+        transform: skewY(5deg);
+    }
+    .año2020{
+        text-align: left;
+        background: #7ed6df;
+        margin-right:850px ;
+        margin-top: 15px;
+        font-size: 25px;
+        transform: skewY(5deg); 
+    }
+    .año2021{
+        text-align: left;
+        background: #d63031;
+        margin-right:850px ;
+        margin-top: 15px;
+        font-size: 25px;
+        transform: skewY(5deg); 
+    }
+    .año2022{
+        text-align: left;
+        background: #F7F9F9;
+        margin-right:850px ;
+        margin-top: 15px;
+        font-size: 25px;
+        transform: skewY(5deg); 
+    }
+    .margen2022{
+        border: #F7F9F9 double 2px;
+        border-radius: 2rem;
+        margin: 90px;
+        margin-top: 5px;
+    }
+    .margen2023{
+        border: #fd79a8 double 2px;
+        border-radius: 2rem;
+        margin: 90px;
+        margin-top: 5px;
+    }
+    .año2023{
+        text-align: left;
+        background: #fd79a8;
+        margin-right:850px ;
+        margin-top: 15px;
+        font-size: 25px;
+        transform: skewY(5deg); 
+    }

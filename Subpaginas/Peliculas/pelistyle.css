@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header,section,nav{
+    display:block;
+}
+body{
+    text-align: center;
+    background:#2c2c54 ;
+}
+.agrupar{
+    width: 960px;
+    margin: 40px auto;
+    border: 2px solid black;
+    padding: 30px 160 30px 160px;
+}
+
+
+.titulo{
+    font-size: 50px;
+    text-align: left;
+    background: #227093;
+    border: 2px solid black;
+}
+
+.contenido{
+    background:#256d8f ;
+    border-radius:40px ;
+    font-size:20px ;
+    font-family:cursive;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.año2020{
+    background: #7ed6df;
+    text-align: left;
+    margin-right:850px ;
+    margin-top: 15px;
+    transform: skewY(5deg);
+    font-size: 25px;
+}
+img{
+  width: 250px;
+  height: 350px;
+object-fit: cover;
+border-radius: 0.5cm;
+}
+.año2021{
+    background: #d63031;
+    text-align: left;
+    margin-right:850px ;
+    margin-top: 15px;
+    transform: skewY(5deg);
+    font-size: 25px;
+ }
+ .año2022{
+    text-align: left;
+    background:#F7F9F9 ;
+    margin-right:850px ;
+    margin-top: 15px;
+    font-size: 25px;
+    transform: skewY(5deg); 
+}
+.año2023{
+    text-align: left;
+    background:#fd79a8;
+    margin-right:850px ;
+    margin-top: 15px;
+    font-size: 25px;
+    transform: skewY(5deg); 
+}

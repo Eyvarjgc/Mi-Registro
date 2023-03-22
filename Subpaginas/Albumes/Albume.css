@@ -1,0 +1,704 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header,section,nav{
+    display:block;
+}
+iframe{
+    visibility: hidden;
+}
+
+@font-face{
+    font-family:xilosa ;
+    src: url(../../xilosa_.ttf);
+}
+body{
+    text-align: center;
+    background:#2c2c54 ;
+}
+.agrupar{
+    width: 960px;
+    margin: 40px auto;
+    border: 2px solid black;
+    padding: 30px 160 30px 160px;
+}
+
+
+.titulo{
+    font-size: 50px;
+    text-align: left;
+    background: #227093;
+    border: 2px solid black;
+}
+
+.contenido{
+    background:#256d8f ;
+    border-radius:40px ;
+    font-size:20px ;
+    font-family:cursive;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.año2020{
+    background: #7ed6df;
+    text-align: left;
+    margin-right:850px ;
+    margin-top: 15px;
+    transform: skewY(5deg);
+    font-size: 25px;
+}
+/*img{
+width: 250px;
+height: 350px;
+object-fit: cover;
+border-radius: 0.5cm;
+}*/
+.año2018{
+    background: #e67e22;
+    text-align: left;
+    font-size: 25px;
+    margin-right:850px ;
+    margin-top:15px;
+    transform: skewY(5deg);
+}
+.año2019{
+    background: #485460;
+    text-align: left;
+    font-size: 25px;
+    margin-right:850px ;
+    margin-top:15px;
+    transform: skewY(5deg);
+}
+.año2021{
+    background: #d63031;
+    text-align: left;
+    margin-right:850px ;
+    margin-top: 15px;
+    transform: skewY(5deg);
+    font-size: 25px;
+}
+.año2022{
+    text-align: left;
+    background:#F7F9F9 ;
+    margin-right:850px ;
+    margin-top: 15px;
+    font-size: 25px;
+    transform: skewY(5deg); 
+}
+.año2023{
+    text-align: left;
+    background:#fd79a8 ;
+    margin-right:850px ;
+    margin-top: 15px;
+    font-size: 25px;
+    transform: skewY(5deg); 
+}
+.A{
+    position: absolute;
+    
+}
+.Beerbongsbentleys{
+    background-color: #cfc615;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #22201e solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.Beerbongsbentleys p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Beerbongsbentleys ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Beerbongsbentleys iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Beerbongsbentleys image{
+    width: 300px;
+    height: 300px;
+    
+}
+.Stoney{
+    background-color: #d26d38;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #302620 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Stoney p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Stoney ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Stoney iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Stoney img{
+    width: 300px;
+    height: 300px;
+
+}
+.B{
+    position: absolute;
+    
+}
+.GoodbyeGoodRiddance{
+    background-color: #1e91cb;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #faf9f7 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.GoodbyeGoodRiddance p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.GoodbyeGoodRiddance ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.GoodbyeGoodRiddance iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.GoodbyeGoodRiddance image{
+    width: 300px;
+    height: 300px;
+    
+}
+.Headintheclouds{
+    background-color: #fffcfd;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #7d3e00 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Headintheclouds p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Headintheclouds ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Headintheclouds iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Headintheclouds img{
+    width: 300px;
+    height: 300px;
+
+}
+.C{
+    position: absolute;
+    
+}
+.WRLD{
+    background-color: #ea8b9d;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #a1c18e solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.WRLD p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.WRLD ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.WRLD iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.WRLD image{
+    width: 300px;
+    height: 300px;
+    
+}
+.Spiderman{
+    background-color: #000000;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #f40013 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Spiderman p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Spiderman ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Spiderman iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Spiderman img{
+    width: 300px;
+    height: 300px;
+
+}
+.D{
+    position: absolute;
+}
+.XXX{
+    background-color: #d3d4cf;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #afafad solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.XXX p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.XXX ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.XXX iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.XXX image{
+    width: 300px;
+    height: 300px;
+    
+}
+.XXX1{
+    background-color: #ffffff;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #000000 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.XXX1 p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.XXX1 ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.XXX1 iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.XXX1 img{
+    width: 300px;
+    height: 300px;
+
+}
+.E{
+    position: absolute;
+}
+.Thedefinition{
+    background-color: #eba606;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #9c4272 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.Thedefinition p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Thedefinition ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Thedefinition iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Thedefinition image{
+    width: 300px;
+    height: 400px;
+    
+}
+.Jonbellion{
+    background-color: #700609;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #fbf263 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Jonbellion p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Jonbellion ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Jonbellion iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Jonbellion img{
+    width: 300px;
+    height: 300px;
+
+}
+.F{
+    position: absolute;
+}
+.Digital{
+    background-color: #dca057;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #cb9e89 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.Digital p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+} 
+.Digital ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+}
+.Digital iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Digital image{
+    width: 300px;
+    height: 400px;
+    
+}
+.Cybersex{
+    background-color: #110c0b;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #c2528d solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Cybersex p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: pink;
+} 
+.Cybersex ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+    color: pink;
+}
+.Cybersex iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.Cybersex img{
+    width: 300px;
+    height: 300px;
+
+}
+.G{
+    position: absolute;
+}
+.XXXTENTACION4{
+    background-color: #101010;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #880409 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.XXXTENTACION4 p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #700609;
+} 
+.XXXTENTACION4 ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+    color: #700609;
+}
+.XXXTENTACION4 iframe{
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    margin-top: 15px;
+}
+.XXXTENTACION4 image{
+    width: 300px;
+    height: 400px;
+    
+}
+/**/
+.Jeremy{
+    background-color: #2d2f4a;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #c1817f solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Jeremy p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+} 
+.Jeremy ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+    color: black;
+}
+.Jeremy img{
+    width: 300px;
+    height: 300px;
+
+}
+/**/
+.H{
+    position: absolute;
+}
+.Juice{
+    background-color: #575353;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #350f45 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.Juice p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+} 
+.Juice ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+    color: black;
+}
+.Juice image{
+    width: 300px;
+    height: 400px;
+}
+/**/
+.Quadeca{
+    background-color: #cc506c;
+    width: 400px;
+    margin-left: 500px;
+    border:9px #350f45 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+    
+}
+.Quadeca p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+} 
+.Quadeca ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+    color: black;
+}
+.Quadeca img{
+    width: 300px;
+    height: 300px;
+
+}
+/**/
+.I{
+    position: absolute;
+}
+.dontforgetaboutme{
+    background-color: #af9d93;
+    width: 400px;
+    margin-left: 50px;
+    border:9px #e3a828 solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 675px;
+}
+.dontforgetaboutme p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+} 
+.dontforgetaboutme ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: xilosa;
+    font-size: 25px;
+    color: black;
+}
+.dontforgetaboutme image{
+    width: 300px;
+    height: 400px;
+}
+/**/

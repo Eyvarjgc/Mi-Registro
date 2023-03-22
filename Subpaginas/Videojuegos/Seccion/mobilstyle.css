@@ -1,0 +1,47 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+nav,head,div,section{
+    display: block;
+}
+body{
+    text-align: center;
+    background: #2c2c54;
+}
+.agrupar{
+    border: 2px solid black;
+    width: 960px;
+    margin: 15px auto;
+    padding:20px 160px 160px 150px;
+}
+header{
+    font-size: 50px;
+    text-align: left;
+    background: #227093;
+    border: 2px solid black;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background:#256d8f ;
+  border-radius: 20px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-top:20px;
+}
+img{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 0.5cm;
+}
+.año{
+    background: #227093;
+    transform: skewy(5deg);
+    margin-right:850px;
+    text-align: left;
+    font-size: 25px;
+    margin-top:15px;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header,head,nav,div{
+display: block;
+}
+body{
+    background: #2c2c54;
+    text-align: center;
+}
+.agrupar{
+  border: 2px solid black;
+  width: 960px;
+  margin: 15px auto;
+  padding:20px 160px 160px 150px
+}
+header{
+    font-size: 50px;
+    text-align: left;
+    background: #227093;
+    border: 2px solid black;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background:#256d8f ;
+  border-radius: 20px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-top:20px;
+}
+.año2012{
+    background: #ffeaa7;
+    margin-top:15px;
+    font-size:25px;
+    text-align: left;
+    margin-right:850px;
+    transform: skewY(5deg);
+}
+img{
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    border-radius: 0.5cm;
+}
+.año2015{
+     background: #a10056;
+   transform: skewy(5deg);
+   margin-right:850px;
+   text-align: left;
+   font-size: 25px;
+   margin-top:15px;
+}
+.año2017{
+    transform: skewY(5deg);
+    background: rgb(0, 255, 85);
+    margin-right: 850px;
+font-size: 25px;
+text-align: left;
+margin-top:15px ;
+}
+.año2019{
+    transform: skewY(5deg);
+    background: #485460;
+    margin-right: 850px;
+font-size: 25px;
+text-align: left;
+margin-top:15px ;
+}
+.año2020{
+    transform: skewY(5deg);
+    background: #7ed6df;
+    margin-right: 850px;
+font-size: 25px;
+text-align: left;
+margin-top:15px ;
+}
+.año2021{
+    background: #d63031;
+    text-align: left;
+    margin-right:850px ;
+    margin-top: 15px;
+    transform: skewY(5deg);
+    font-size: 25px;
+    justify-items: center; 
+    align-items: end;
+}
+
+
+.año2022{
+    text-align: left;
+    background:#F7F9F9 ;
+    margin-right:850px ;
+    margin-top: 15px;
+    font-size: 25px;
+    transform: skewY(5deg); 
+}
+
+.margen2023{
+    border: #fd79a8 double 2px;
+    border-radius: 2rem;
+    margin: 90px;
+    margin-top: 5px;
+}
+.año2023{
+    text-align: left;
+    background: #fd79a8;
+    margin-right:850px ;
+    margin-top: 15px;
+    font-size: 25px;
+    transform: skewY(5deg); 
+}

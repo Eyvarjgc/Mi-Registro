@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header,head,nav,div{
+display: block;
+}
+body{
+    background: #2c2c54;
+    text-align: center;
+}
+.agrupar{
+  border: 2px solid black;
+  width: 960px;
+  margin: 15px auto;
+  padding:20px 160px 160px 150px
+}
+header{
+    font-size: 50px;
+    text-align: left;
+    background: #227093;
+    border: 2px solid black;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background:#256d8f ;
+  border-radius: 20px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-top:20px;
+}
+img{
+    object-fit: cover;
+    width: 250px;
+    border-radius: 0.5cm;
+    height: 350px;
+}
+.año2011{
+    background: #ffffff;
+    margin-top:15px;
+    font-size:25px;
+    text-align: left;
+    margin-right:850px;
+    transform: skewY(5deg);
+}
