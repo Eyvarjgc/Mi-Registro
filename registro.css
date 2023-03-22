@@ -1,215 +1,318 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
-header,section,article,nav,address,footer{
-    display: block;
+:root{
+    --dark: #120910;;
+    --dark-blue: #12314a;;
+    --blue: #156b94;;
+    --blue-2: #20a6d8;;
+    --light-blue: #20dbd8;
+    --white:#fff;
 }
-body{
-    text-align: center;
-    background:#2c2c54;
-    /*background:#2c2c54;*/
-    background: linear-gradient(135deg,#8981f4,#7cd2e8);
-    background-size: 500%;
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*WAVES*/
 
-.pag__responsive{
-    display: none;
+.main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill,min-max(150px,1fr));   
+    grid-template-areas:  
+    "animes "
+    "albumes "
+    "libros "
+    "mangas"
+    "pel_ser"
+    "videojuegos";
 }
-/*Imagenes*/
-.imagen1{
-    margin-top: 10px;
-    border-style:solid;
-    border-color: midnightblue;
-    border-width: 10px;
-    border-radius: 50%;
-    position: relative;
-    transition: all 1s;
-    top: 15px ;
-    right: 25px;
-}
-.imagen1:hover{
-transform: scale(1.4);
-}
-.imagen2{
-width: 175px;
-border-style: solid;
-border-color: midnightblue;
-border-width: 10px;
-border-radius: 20%;
-position: relative;
-top: 15px;
-left: 25px;
-z-index:2;
-transition: all 1s;
-}
-.imagen2:hover{
-    transform: scale(1.4);
-    }
 
-/*Encabezado*/
-/*
-.header{
-    border-top: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    background:#363643;
-    text-align: left;
-    color: white;
-    padding: 15px 130px 15px 20px;
-}
-}*/
-/*Fondo de  pagina, linea*/
-.fondolinea{
-    width: 1000px;
-    border-radius: 5px;
-    margin: 15px auto;
-    padding:20px 160px 20px 150px;
-}
-/*
-.contenido{
-    background: #227093;
-    block-size: 60px;
-    font-size: 28px;
-    line-height: 30px;
-    position: relative;
-    top: 5px;
-}
-*/
-/*Fondo Menu de navegacion */
-.navegacion__menu{
-text-align: center;
-border-right: 2px solid;
-border-left:2px solid;
-border-top:2px solid;
-border-bottom:2px solid;
-border-radius: 25px;
-background: rgb(26,161,177);
-background: linear-gradient(90deg, rgba(26,161,177,0.36738445378151263) 9%, rgba(151,68,145,0.44021358543417366) 29%, rgba(108,18,126,0.4150035014005602) 64%, rgba(6,22,57,0.5214460784313726) 90%);
-opacity: 0.9;
-/*
-border-bottom-right-radius: 25px;
-border-bottom-left-radius: 25px;
-*/
-/*background: #2c2c54;*/
-/*background-color: #227093;*/
-background: #363643;
-/*background: #363643;*/
-padding: 35px;
-padding-bottom: 50px;
-font-size: 22px;
-text-decoration: none;
-}
-/*Lista de menu navegacion*/
-.navegacion__menu__li{
-    display:inline-block;
-    margin-top: 11px;
-    border: 1px solid black;
-    font-weight:bold;
-    background-color: #d3d3dc;
-    border-radius: 10px;
-    margin: 5px 0px;
-}
-/*Lista menu enlace*/
-.navegacion__menu__li a{
-    color: black;
+/*ANIME SECTION*/
+.anime_link{ 
+
+    margin-bottom: 10px;
+    grid-area: animes;
+    margin: 0 auto;
+    width: 80%;
     text-decoration: none;
-    transition: all 0.4s;
-
-}
-.navegacion__menu__li a:hover{
-    background: linear-gradient(to bottom,transparent,#363643);
-    padding: 40px;
-
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-bottom: 1px;
-}
-#albumes{
-    margin-top: 20px;
-}
-/*
-#kk:hover{
-    transform: scale(1.2);
-}*/
-.sugerencia{
-    margin-top: 35px;
-    font-size: 30px;
-    line-height: 50px;
-}
-.textofinal{
-    color: black;
-    padding-bottom: 15px; 
-    padding-top: 15px;
-    font-size: 30px;
-    line-height: 10px;
-}
-
-.ola{
-    position: absolute;
+    color: var(--white);
+    font-size: 20px;
+    background: url(Subpaginas/Animes/images/dio-portada.jfif);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 45vh;
     display: flex;
-    background-color: red;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
 }
-@media only screen and (max-width:540px){
-    .pag{
-        display: none;
-    }
-    .pag__responsive{
-        display: block;
-    }
-        /*Encabezado*/
-    .header{
-        width: 86px;
-        margin-left: 30%;
-        margin-top: 100px;
-    }
-    /*Fondo de  pagina, linea*/
-    .fondolinea{
-        border: 2px solid blue;
-    }
-    /*Fondo Menu de navegacion */
-    .navegacion__menu{
-    padding: 3px;
-    padding-bottom: 35px;
+.anime_title, .anime_para{
+    padding: 10px;
+    margin: 20px 0 30px 0;
+}
+.anime_para{
+    filter: brightness(30%);
+    color: aqua;
+    background-color: var(--dark);
+}
+
+/*ALBUMES SECTION*/
+.albumes_link{
+
+    width: 80%;
+    margin: 0 auto;
     text-decoration: none;
-    width: 230px;
-    margin-left: 30%;
-    }
-    /*Lista de menu navegacion*/
-    .navegacion__menu__li{
-    display:block;
-    margin-top: 11px;
-    border: 1px solid black;
-    padding: 1px;
-    font-weight:bold;
-    background-color: #d3d3dc;
+    color: var(--white);
+    font-size: 20px;
+    grid-area: albumes;
+    height: 30vh;
+    background: url(Subpaginas/Albumes/joji-portada.jfif);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
 }
-/*Lista menu enlace*/
-    .navegacion__menu__li a{
-    color: black;
+.albumes_title{
+    text-align: center;
+    border-bottom: 2px solid;
+}
+.albumes_para{
+    padding: 20px;
+    font-size: 22px;
+    color: var(--white);
+    margin-top: 5px;
+    overflow: hidden;
+
+}
+
+/*LIBROS SECTION*/
+.libros_link{
+    
+    grid-area: libros;
+    height: 40vh;
+    background: url(Subpaginas/Libros/images/libros-portada.jfif);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
     text-decoration: none;
-    transition: all 0.4s;
+    color: var(--white);
+    font-size: 20px;
 }
-    .navegacion__menu__li a:hover{
-    background-color: #363643;
-    padding: 34px;
-    padding:0px;
+.libros_title{
+    padding: 20px;
+    text-align: right;
+    align-self: flex-end;
+    word-spacing: 2px;
 }
-/*
-#kk:hover{
-    transform: scale(1.2);
-}*/
-    .sugerencia{
-    margin-top: 35px;
+.libros_para{
+    padding: 20px;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 5px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+/*MANGAS SECTION*/
+
+.mangas_link{
+    grid-area: mangas;
+    height: 70vh;
+    background: url(Subpaginas/Mangas/guts-portada.jfif);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+.mangas_title{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20vh;
+    word-spacing: 2px;
+    font-size: 40px;
+    color: var(--white);
+}
+.mangas_para{
+    padding: 20px;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 5px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+/*PELICULAS-SERIES SECTION Y CONTAINER*/
+
+.container_p-s{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    grid-area: pel_ser;
+}
+.peliculas_link{
+    height: 40vh;
+    grid-area: peliculas;
+    background: url(Subpaginas/Peliculas/imagenes/pelicula-portada.png);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 15px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+}
+.peliculas_title{
+    padding: 20px;
+    word-spacing: 2px;
     font-size: 30px;
-    line-height: 50px;
+    color: var(--white);
 }
-    .textofinal{
-    color: black;
-    padding-bottom: 15px; 
-    padding-top: 15px;
-    font-size: 30px;
-    line-height: 10px;
+.peliculas_para{
+    display: none;
+    padding: 20px;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 5px;
+    overflow: hidden;
+    font-size: 20px;
 }
+
+/*SERIES SECTION*/
+
+
+.series_link{
+    height: 40vh;
+    grid-area: series;
+    background: url(Subpaginas/Series/Images/Series-portada.jfif);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
 }
+.series_title{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20vh;
+    word-spacing: 2px;
+    font-size: 20px;
+    align-self: center;
+    color: var(--white);
+    font-size: 25px;
+}
+.series_para{
+    display: none;
+    padding: 20px;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 5px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+/*VIDEOJUEGOS SECTION*/
+
+.videojuegos_link{
+    grid-area: videojuegos;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    height: 50vh;
+    background: url(Subpaginas/Videojuegos/Dark\ Souls\ Bonfire\ Lit\ \(1\).gif);
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    border: var(--light-blue) 1px solid;
+    border-radius: 30px;
+}
+.videojuegos_title{
+    padding: 20px;
+    text-align: center;
+    margin-top: 20vh;
+    word-spacing: 2px;
+    font-size: 40px;
+    color: var(--white);
+}
+.videojuegos_para{
+    display: none;
+    padding: 20px;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 5px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+@media (min-width:650px) {
+    .main{
+        grid-template-areas: 
+        "animes albumes libros mangas"
+        "pel_ser albumes videojuegos mangas";
+    }
+    
+    .anime_link{
+        margin-left: 5vw;
+        width: 20vw;
+        height: 40vh;
+    }
+    .albumes_link{
+        margin-top: 4em;
+        height: 70vh;
+        width: 15vw;
+    }
+    
+    .container_p-s{
+        position: relative;
+        margin-left: 5vw;
+    }
+    .mangas_link{
+        height: 90vh;
+    }
+    .videojuegos_link{
+        height: 40vh;
+
+    }
+}
+
