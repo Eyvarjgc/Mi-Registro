@@ -1,4 +1,184 @@
 *{
+    margin: 0;
+    padding: 0;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+
+
+header h1 {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+}
+header p{
+    padding: 2em;
+    font-size: 18px;
+}
+
+/* .main{
+    outline: 2px red solid;
+
+
+} */
+.año2012 h3{
+    color:#ffeaa7 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2012{
+    background: #ffeaa7;
+} */
+.año2015 h3{
+    color:#a10056 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2018{
+    background: #e67e22;
+} */
+
+
+.año2017 h3{
+    color:rgb(0, 255, 85);
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2019{
+    background: #ffeaa7;
+} */
+
+
+.año2018 h3{
+    color:#485460 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2019{
+    background: #ffeaa7;
+} */
+
+
+.año2019 h3{
+    color:#485460 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2019{
+    background: #ffeaa7;
+} */
+
+.año2020 h3{
+    color:#7ed6df ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2020{
+    background: #ffeaa7;
+} */
+
+.año2021 h3{
+    color:#d63031 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2021{
+    background: #ffeaa7;
+} */
+
+.año2022 h3{
+    color:#F7F9F9 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2022{
+    background: #F7F9F9;
+} */
+
+.año2023 h3{
+    color:#fd79a8 ;
+    font-size: 30px;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    background-color: #000;
+    width: 100%;
+}
+/* .año2023{
+    background: #fd79a8;
+} */
+.imagenes{
+    display: flex;
+    max-width: 90%;
+    height: 300px;
+    padding: 1em;
+    overflow-x: scroll;
+    scroll-snap-type:x mandatory ;
+}
+.imagenes img{
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+
+@media (min-width:650px) {
+    .imagenes{
+        display: flex;
+        width: 100%;
+        height: 430px;
+        margin: 0  auto;
+        
+    }
+    .imagenes img{
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    .imagenes img:hover{
+        cursor: crosshair;
+        width: 300px;
+        opacity: 1;
+        filter:contrast(120%);
+    }
+}
+
+
+/* 
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -111,4 +291,4 @@ margin-top:15px ;
     margin-top: 15px;
     font-size: 25px;
     transform: skewY(5deg); 
-}
+} */

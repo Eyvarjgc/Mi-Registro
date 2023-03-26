@@ -1,60 +1,196 @@
 *{
-    padding: 0px;
-    margin: 0px;
+  margin: 0;
+  padding: 0;
 }
-header,section,nav{
-    display:block;
-   }
-header{
-    font-size: 50px;
-    text-align: left;
-    background: #227093;
-    border: 2px solid black;
+:root{
+  --dark: #120910;;
+  --dark-blue: #12314a;;
+  --blue: #156b94;;
+  --blue-2: #20a6d8;;
+  --light-blue: #20dbd8;
+  --white:#fff;
 }
-
-.contenido{
-    text-align: center;
-    font-family: cursive;
-    font-size: 20px;
-    background:#256d8f ;
-  border-radius: 40px;
-    padding-top:50px;
-    padding-bottom: 50px;
-    margin-top:20px;
+html{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{
-    text-align: center;
-    background:#2c2c54;
+.main{
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fill,min-max(150px,1fr));   
+  grid-template-areas:  
+  "Mobil "
+  "Nintendo_DS "
+  "PC "
+  "PS4"
+  "PSVITA";
+}
 
+/*ANIME SECTION*/
+.Mobil_link{ 
+  margin-bottom: 10px;
+  grid-area: Mobil;
+  margin: 0 auto;
+  width: 80%;
+  text-decoration: none;
+  font-size: 20px;
+  background: url(Seccion/imag/genshinimpactpic04pcmo-1620x800.jpg);
+  background-position: bottom;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  border: var(--light-blue) 1px solid;
+  border-radius: 30px;
+}
+.Mobil_title{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  word-spacing: 2px;
+  font-size: 40px;
+  color: #fff;
+}
 
+/*Nintendo_DS SECTION*/
+.Nintendo_DS_link{
+  margin-bottom: 10px;
+  grid-area: Nintendo_DS;
+  margin: 0 auto;
+  width: 80%;
+  text-decoration: none;
+  font-size: 20px;
+  background: url(Seccion/ima3/mario\ basketball\ ds.jpg);
+  background-position: bottom;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  border: var(--light-blue) 1px solid;
+  border-radius: 30px;
 }
-.agrupar{
-  border: 2px solid black;
-  width: 960px;
-  margin: 40px auto;
-  padding:20px 160px 160px 150px
+.Nintendo_DS_title{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  word-spacing: 2px;
+  font-size: 40px;
+  color: #fff;
 }
 
-.menu{
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 20px;
-   background: #202d50;
-   border: 2px solid black;
-   font-size: 35px;
-   margin-top:70px;
+/*LIBROS SECTION*/
+.PC_link{
+  
+  grid-area: PC;
+  height: 40vh;
+  background: url(Seccion/imag/Minecraft.jpg);
+  background-position: bottom;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  border: var(--light-blue) 1px solid;
+  border-radius: 30px;
+  width: 80%;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 20px;
 }
-.menu li{
-    list-style:none;
-    display: inline-block;
-  border: 2px solid white;
-  margin: 40px;
- 
+.PC_title{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  word-spacing: 2px;
+  font-size: 40px;
+  color: #fff;
 }
-.menu li:hover{
-  transform: scale(1.4);
+
+/*MANGAS SECTION*/
+
+.PS4_link{
+    grid-area:PS4;
+  height: 40vh;
+  background: url(Seccion/psima/elden\ ring.jpg);
+  background-position: bottom;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  border: var(--light-blue) 1px solid;
+  border-radius: 30px;
+  width: 80%;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 20px;
 }
-a{
-  color: white;
+.PS4_title{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  word-spacing: 2px;
+  font-size: 40px;
+  color: #fff;
+}
+
+/*PSVITA SECTION*/
+
+.PSVITA_link{
+  grid-area: PSVITA;
+  text-decoration: none;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+  height: 50vh;
+  background: url(Seccion/psima/Terraria.jpg);
+  background-position: bottom;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  border: var(--light-blue) 1px solid;
+  border-radius: 30px;
+}
+.PSVITA_title{
+  padding: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  word-spacing: 2px;
+  font-size: 40px;
+  color: #fff;
+}
+
+@media (min-width:650px) {
+  .main{
+      grid-template-areas: 
+      "Mobil PS4  PC PSVITA Nintendo_DS"
+      "Mobil PS4  PC PSVITA Nintendo_DS";
+  }
+  
+  .Mobil_link{
+    height: 90vh;
+  }
+  .Nintendo_DS_link{
+    height: 90vh;
+  }
+  .PC_link{
+    height: 90vh;
+  }
+  .PS4_link{
+      height: 90vh;
+  }
+  .PSVITA_link{
+    height: 90vh;
+  }
 }
