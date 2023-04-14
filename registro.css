@@ -10,11 +10,13 @@
     --light-blue: #20dbd8;
     --white:#fff;
 }
+a{text-decoration: none;}
 html{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .main{
+    margin-top: 3vh;
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(auto-fill,min-max(150px,1fr));   
@@ -26,10 +28,33 @@ html{
     "pel_ser"
     "videojuegos";
 }
+.add{
+    width: 100%;
+    background-color: #252525;
+    height: 15vh;
+
+}
+.add-form{
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.add-link{
+    margin-top: 10px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.add-link:hover{
+    border-bottom: 2px solid;
+    color:#797979;
+    margin-top:15px;
+}
 
 /*ANIME SECTION*/
 .anime_link{ 
-
     margin-bottom: 10px;
     grid-area: animes;
     margin: 0 auto;
@@ -313,6 +338,13 @@ html{
     .videojuegos_link{
         height: 40vh;
 
+    }
+    .add-form{
+        padding-top: 2em;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: space-between;
     }
 }
 
